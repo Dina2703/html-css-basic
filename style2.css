@@ -1,0 +1,18 @@
+.img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.img2 {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border: 1px solid blue;
+  object-position: top;
+}
+
+.img3 {
+  width: 600px;
+}
