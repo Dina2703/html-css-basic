@@ -1,11 +1,10 @@
 body {
-  overflow: hidden;
   height: 100vh;
   box-sizing: border-box;
 }
 
 .container {
-  margin-top: 70px;
+  margin: 100px 0;
 }
 .subscribe-btn {
   background-color: rgb(200, 0, 0);
@@ -179,4 +178,32 @@ div.amazon-page button.add:hover {
 div.amazon-page button.buy {
   background-color: rgb(255, 164, 28);
   margin-left: 15px;
+}
+
+.images {
+  height: 500px;
+  border: 1px solid red;
+}
+
+.images h1 {
+  text-align: center;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.img2 {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border: 1px solid blue;
+  object-position: top;
+}
+
+.img3 {
+  height: 300px;
 }
