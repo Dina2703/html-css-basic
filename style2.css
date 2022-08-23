@@ -1,21 +1,8 @@
 .img {
   width: 300px;
-<<<<<<< HEAD
-=======
-  height: 300px;
-  object-fit: cover;
-  object-position: left;
 }
 
-.img2 {
-  width: 300px;
-  height: 300px;
-  object-fit: contain;
-  border: 1px solid blue;
-  object-position: top;
-}
-
-.img3 {
-  width: 600px;
->>>>>>> 542180fc8e6f89267848610902bcbc15f91294b4
+.search-bar {
+  font-size: 20px;
+  margin-left: 12px;
 }

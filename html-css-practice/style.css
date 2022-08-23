@@ -1,11 +1,10 @@
 body {
   height: 100vh;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
-.container {
-  margin: 100px 0;
-}
 .subscribe-btn {
   background-color: rgb(200, 0, 0);
   border: none;
@@ -181,8 +180,8 @@ div.amazon-page button.buy {
 }
 
 .images {
-  height: 500px;
   border: 1px solid red;
+  margin-bottom: 50px;
 }
 
 .images h1 {
@@ -206,4 +205,117 @@ div.amazon-page button.buy {
 
 .img3 {
   height: 300px;
+}
+
+div.cats {
+  padding-bottom: 100px;
+}
+
+.cat {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.cat2 {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cat3 {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+div.textboxes {
+  padding: 50px;
+}
+
+.search-input {
+  color: gray;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 10px;
+  padding: 16px;
+  font-size: 20px;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.search-google {
+  color: gray;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 15px;
+  width: 500px;
+  font-size: 15px;
+  outline: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+div.signup {
+  margin-top: 50px;
+  border: 0.5px solid black;
+  width: 400px;
+  padding: 10px;
+}
+
+div.signup p {
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+div.signup input {
+  width: 98%;
+
+  margin-bottom: 14px;
+  border-radius: 5px;
+  border: 2px solid rgb(100, 100, 100);
+}
+
+div.signup button {
+  width: 100%;
+  border: none;
+  border-radius: 22px;
+  padding: 14px;
+  background-color: #24a0ed;
+  color: white;
+  margin-top: 14px;
+}
+
+.twitter-textbox {
+  margin-top: 50px;
+  border: 0.1px dashed black;
+  padding: 5px;
+  width: 450px;
+}
+
+.twitter-textbox img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.twitter-textbox input {
+  border: none;
+  font-size: 18px;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.twitter-textbox button {
+  background-color: #24a0ed;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  vertical-align: middle;
 }
