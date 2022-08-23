@@ -319,3 +319,78 @@ div.signup button {
   font-size: 16px;
   vertical-align: middle;
 }
+
+.signup-form {
+  margin: 40px 0;
+}
+
+.signup-form > * {
+  padding: 10px;
+  border: 1px solid rgba(100, 100, 100, 0.5);
+  border-radius: 8px;
+}
+
+.fname,
+.lname {
+  display: inline-block;
+  width: 134px;
+  margin-bottom: 12px;
+}
+
+.email,
+.signup {
+  display: block;
+}
+
+.signup-form .email {
+  margin-bottom: 12px;
+  width: 295px;
+}
+
+.signup-form .signup {
+  background-color: #24a0ed;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  width: 318px;
+}
+
+.signup-form .signup:hover {
+  opacity: 0.8;
+}
+
+.request-ride {
+  width: 500px;
+}
+
+.request-ride h2 {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.request-ride input {
+  border: none;
+  display: block;
+  width: 330px;
+  background-color: rgb(240, 240, 240);
+  margin: 8px;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: rgba(100, 100, 100, 07);
+  margin-left: 0;
+}
+
+.request-ride button {
+  padding: 15px 25px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.request-ride button.request {
+  background-color: #000;
+  color: white;
+  margin-right: 10px;
+}
