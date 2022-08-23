@@ -289,8 +289,10 @@ div.signup button {
 
 .twitter-textbox {
   margin-top: 50px;
-  border: 0.1px dashed black;
-  padding: 5px;
+  border: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 15px;
   width: 450px;
 }
 
@@ -393,4 +395,44 @@ div.signup button {
   background-color: #000;
   color: white;
   margin-right: 10px;
+}
+
+.cart-cat1 {
+  margin-top: 50px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  width: 200px;
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.cart-cat1 img {
+  height: 220px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  border: none;
+}
+
+p.name {
+  font-weight: bold;
+  margin: 0;
+  padding-left: 8px;
+}
+
+p.cat-stats {
+  margin: 0;
+  padding: 5px 0 10px;
+  color: gray;
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+button.add-friend {
+  background-color: #24a0ed;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  margin-left: 8px;
 }
