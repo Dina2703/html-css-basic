@@ -1,8 +1,40 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
 
+/* header */
+
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-section {
+  background-color: antiquewhite;
+  width: 150px;
+}
+
+.middle-section {
+  background-color: darkgoldenrod;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 520px;
+}
+
+.right-section {
+  background-color: cadetblue;
+  width: 200px;
+}
+/* video */
 .video-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

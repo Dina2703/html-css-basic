@@ -1,5 +1,4 @@
 body {
-  height: 100vh;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -451,7 +450,6 @@ button.add-friend {
 .container-layout-cats {
   margin-top: 50px;
   width: 250px;
-
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -495,4 +493,71 @@ button.add-friend {
 
 .btn-layout {
   margin-top: 8px;
+}
+
+/* Flex */
+.container-flex {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  border: 0.3px solid black;
+  justify-content: center;
+}
+
+.flex {
+  width: 100px;
+}
+
+.flex:first-child {
+  background-color: lightblue;
+}
+
+.flex:nth-child(2) {
+  background-color: lightgreen;
+}
+
+.flex:last-child {
+  background-color: lightcoral;
+}
+
+.container-flex2 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  border: 0.3px solid black;
+  justify-content: space-around;
+}
+
+.container-flex3 {
+  height: 100px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  border: 0.3px solid black;
+  justify-content: space-around;
+}
+
+.flex-score-container {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid rgb(94, 94, 94);
+  border-radius: 7px;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.flex-score-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+}
+
+.flex-score-btn {
+  background-color: rgb(49, 109, 245);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
 }
