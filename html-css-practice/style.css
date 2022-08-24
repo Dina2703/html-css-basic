@@ -3,6 +3,7 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .subscribe-btn {
@@ -435,4 +436,53 @@ button.add-friend {
   padding: 10px 16px;
   border-radius: 4px;
   margin-left: 8px;
+}
+
+.container-layout-cats {
+  margin-top: 50px;
+  width: 250px;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.container-layout-cats img.main-picture {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border: none;
+}
+.av-cat {
+  display: inline-block;
+  width: 30px;
+}
+
+.cat-avatar {
+  height: 30px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.cat-layout-stats {
+  padding: 10px;
+}
+
+.cat-layout-stats div:first-child {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.avatar-p {
+  display: inline-block;
+  width: 150px;
+  vertical-align: super;
+
+  color: rgb(94, 94, 94);
+}
+
+.btn-layout {
+  margin-top: 8px;
 }
