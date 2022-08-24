@@ -398,18 +398,28 @@ div.signup button {
   margin-right: 10px;
 }
 
+.div-cats {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  column-gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .div-cats {
+    grid-template-columns: repeat(2, 200px);
+  }
+}
+
 .cart-cat1 {
   margin-top: 50px;
-  margin-right: 20px;
   padding-bottom: 10px;
-  width: 200px;
-  display: inline-block;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .cart-cat1 img {
   height: 220px;
-  width: 200px;
+  width: 100%;
   object-fit: cover;
   object-position: center;
   border: none;
