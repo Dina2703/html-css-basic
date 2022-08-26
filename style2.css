@@ -18,22 +18,68 @@ p {
 }
 
 .left-section {
-  background-color: antiquewhite;
-  width: 150px;
+  display: flex;
+  align-items: center;
+  margin-left: 46px;
 }
 
 .middle-section {
-  background-color: darkgoldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 1;
-  margin-left: 70px;
+  margin-left: 35px;
   margin-right: 35px;
-  max-width: 520px;
+  max-width: 590px;
+}
+
+.middle-section .search-bar {
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(180, 178, 178);
+  outline: none;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  /* to remove refault width of a input  */
+  width: 0;
+}
+
+.middle-section .search-icon {
+  height: 36px;
+  width: 66px;
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(180, 178, 178);
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  margin-left: -3px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+
+.middle-section .micro-icon {
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  border: none;
+  padding-top: 4px;
+}
+
+.middle-section .search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
 }
 
 .right-section {
-  background-color: cadetblue;
   width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 20px;
+  /* to prevent shrinking of the flex box  */
+  flex-shrink: 0;
 }
+
 /* video */
 .video-grid-container {
   display: grid;
@@ -88,5 +134,26 @@ p {
 @media only screen and (max-width: 600px) {
   .video-grid-container {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .middle-section .search-bar,
+  .middle-section .micro-icon {
+    display: none;
+  }
+  .left-section {
+    display: flex;
+    align-items: center;
+    margin-left: 10;
+  }
+  .right-section {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+    /* to prevent shrinking of the flex box  */
+    flex-shrink: 0;
   }
 }
