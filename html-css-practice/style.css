@@ -602,6 +602,7 @@ button.add-friend {
   padding: 8px 16px;
   margin: 15px 50px;
   max-width: 500px;
+  width: 0;
 }
 
 .search-container-flex button {
@@ -611,6 +612,26 @@ button.add-friend {
   border: 1px solid white;
   color: white;
   padding: 8px 8px;
+}
+
+.search-container-flex img {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-container-flex button {
+    display: none;
+  }
+  .search-container-flex img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-right: 125px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+  }
 }
 
 .sidebar-container {
