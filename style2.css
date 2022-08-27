@@ -25,6 +25,9 @@ p {
   width: 100%;
   background-color: white;
   border-bottom: 1px solid rgb(226, 226, 226);
+
+  /* to make the header the upper layer, so other layers can go beneath it. */
+  z-index: 100;
 }
 
 /* SIDE_BAR */
@@ -100,6 +103,23 @@ p {
   flex-shrink: 0;
 }
 
+.notification {
+  position: relative;
+}
+
+.notif-number {
+  font-family: Roboto, Arial;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  background-color: rgb(193, 38, 38);
+  color: white;
+  border-radius: 7px;
+  font-size: 11px;
+  text-align: start;
+  padding: 1px 4px;
+}
+
 /* video */
 .video-grid-container {
   padding-left: 80px;
@@ -129,6 +149,20 @@ p {
 
 .video {
   margin-bottom: 12px;
+  position: relative;
+}
+
+.video-time {
+  font-family: Roboto, Arial;
+  font-style: 11px;
+  font-weight: 500px;
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  background-color: rgb(12, 11, 11);
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
 }
 
 .user-info-grid {
